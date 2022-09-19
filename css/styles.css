@@ -656,8 +656,28 @@ margin-bottom: 30px;
 
 }
 .image {
+position: relative;
    display: block; 
    text-decoration: none;
+} 
+
+.img-overlay {
+position: absolute;
+display: block;
+width: 100%;
+height: 294px;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+color: var(--text-color-white);
+background: rgba(33, 150, 243, 0.9);
+padding: 63px 24px;
+top: 0;
+right: 0;
+opacity: 0;
+}
+.portfolio-list .image:hover .img-overlay {
+    opacity: 1;
 }
 
 .portfolio-list .image:hover {
