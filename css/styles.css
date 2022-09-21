@@ -281,7 +281,7 @@ border: none;
     
 }
  .backdrop.is-hidden.modal {
-    transform: translate(-50%,-50%) scale(0,9);
+    transform: translate(-50%, -50%) scale(0,9);
     
  }
 
@@ -298,7 +298,7 @@ border: none;
     min-width: 528px;
     background-color: var(--text-color-white);
     display: flex;
-    transform: translate(-50%,-50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms var(--timing-function);
 
 }
