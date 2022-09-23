@@ -734,15 +734,11 @@ flex-wrap: wrap;
 width: 370px;
 margin-right: 30px;
 margin-bottom: 30px;
-
 }
 .image {
 display: block; 
 text-decoration: none;
-   
-} 
-
-
+ } 
 .port-overlay {
     width:"370px";
     height:"294px";
@@ -751,8 +747,6 @@ text-decoration: none;
    text-decoration: none;
       overflow: hidden;
 }
-
-
  .img-overlay {
     position: absolute;
     display: block;
@@ -766,15 +760,12 @@ text-decoration: none;
     padding: 63px 24px;
      opacity: 0;
     transition: 250ms var(--timing-function);
-   
-}  
-
-
+ }  
 .portfolio-list .image:hover .img-overlay {
     opacity: 1;
     transition: 250ms var(--timing-function);
     transform: translateY(-100%);
-      
+    
 }
 .portfolio-list .image:focus .img-overlay {
     opacity: 1;
